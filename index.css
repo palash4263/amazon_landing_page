@@ -1,0 +1,106 @@
+/* General styles */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+     
+  }
+  .top-header{
+    width: 100%; /* Takes up full width of the parent container */
+  margin: 0; /* Removes any margins */
+  padding: 0; /* Removes any padding */
+  }
+  
+  /* Logo and Prime status */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    width: 100px;
+  }
+  
+  .prime-status {
+    color: #fff;
+    background-color: #ff9900;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+  
+  /* Location container */
+  .location-container {
+    margin-left: auto;
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  /* Search container */
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .search-container input[type="search"] {
+    padding: 10px 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex-grow: 1;
+  }
+  
+  .search-container button[type="submit"] {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+  
+  .all-categories select {
+    margin-right: 10px;
+  }
+  
+  /* Search options */
+  .search-options {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .search-options input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Language and country */
+  .language-and-country-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-and-country-container select {
+    margin-right: 10px;
+  }
+  
+  /* Account container */
+  .account-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .account-container a {
+    margin-left: 20px;
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
